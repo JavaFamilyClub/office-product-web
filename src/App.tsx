@@ -1,9 +1,10 @@
 import './App.css';
+import OfficeProductHeader from "./components/layout/office-product-header";
 
 function App() {
   return (
     <div className="App">
-      App...
+      <OfficeProductHeader></OfficeProductHeader>
     </div>
   );
 }
