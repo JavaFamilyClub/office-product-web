@@ -1,0 +1,45 @@
+.slider-layout {
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  .slider-bar {
+    width:250px;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 24px;
+    flex-shrink: 0;
+  }
+
+  .ant-menu {
+    background: #f5f7f9;
+
+    .ant-menu-item {
+      height: 52px;
+      line-height: 52px;
+      font-size: 16px;
+      color: #45536d;
+    }
+
+    .ant-menu-item-selected {
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+      color: #1b4eed;
+      background: linear-gradient(
+                      268.04deg,
+                      rgba(91, 176, 255, 0.1) 2%,
+                      rgba(91, 176, 255, 0.17) 98%
+      ) !important;
+    }
+
+    .ant-menu-item-selected::after {
+      left: 2px;
+      right: auto;
+    }
+  }
+
+  .slider-layout-content {
+    flex: 1 1;
+  }
+}

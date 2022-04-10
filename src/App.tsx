@@ -1,11 +1,11 @@
 import './App.css';
-import OfficeProductHeader from "./components/layout/office-product-header";
+import Routes from "./router";
 
 function App() {
   return (
-    <div className="App">
-      <OfficeProductHeader></OfficeProductHeader>
-    </div>
+     <div className="app">
+        {Routes({ turnOffLogin: false, turnOffPermission: false })}
+     </div>
   );
 }
 

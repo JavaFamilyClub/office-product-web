@@ -1,0 +1,31 @@
+.components-home-header__main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  //background-color: #005fca;
+
+  .ant-menu-horizontal {
+    justify-content: space-evenly;
+    width: 28em;
+    height: 100%;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .ant-menu-horizontal > .ant-menu-item {
+    flex: 1;
+    height: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .ant-menu-horizontal > .ant-menu-item-selected {
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .ant-menu-horizontal > .ant-menu-item::after {
+    display: none;
+  }
+}
